@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"create":true,"guestpath":"/vagrant","hostpath":"/Users/madalin/Workspace/Learn/kohana.3.0.begginers_guide/vagrant","disabled":false},"/var/www/html":{"create":true,"group":"www-data","owner":"www-data","guestpath":"/var/www/html","hostpath":"/Users/madalin/Workspace/Learn/kohana.3.0.begginers_guide","disabled":false}}}

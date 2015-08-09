@@ -1,0 +1,37 @@
+server {
+
+    listen 80;
+
+    root /var/www/html;
+
+    index index.php;
+
+    server_name _;
+
+    location / {
+        expires off;
+        try_files $uri $uri/ @php;
+    }
+
+    location ~ /\. {
+        deny all;
+    }
+
+    location /vagrant {
+        deny all;
+    }
+
+    location @php {
+        rewrite ^/(.+)$ /index.php$request_uri last;
+    }
+
+    location ~* \.php {
+        fastcgi_pass 127.0.0.1:9000;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param APP_ENV DEVELOPMENT;
+        fastcgi_cache off;
+        fastcgi_index index.php;
+    }
+
+}
