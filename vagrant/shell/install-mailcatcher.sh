@@ -3,6 +3,9 @@
 if [ ! -f /root/.provisioned-mailcatcher ]
 then
 
+    # sqlite3.h needed to compile
+    apt-get install -qq  ruby-dev libsqlite3-dev
+
     gem install i18n -v 0.6.11 --no-rdoc --no-ri
     gem install activesupport -v 3.2.22 --no-rdoc --no-ri
     gem install eventmachine -v 1.0.7 --no-rdoc --no-ri
