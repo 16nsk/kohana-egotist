@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Profile extends Controller_Application {
+class Controller_User_Profile extends Controller_Application {
 	
 	public function action_index()
 	{
@@ -8,11 +8,13 @@ class Controller_Profile extends Controller_Application {
 		$content = View::factory('profile/public')
 			->set('username', 'Test User')
 			->bind('messages', $messages);
-		$messages = array(
-			'This is test message one',
-			'This is test message two',
-			'This is test message three'
-		);
+		
+		$id = (int) $this->request->param('id');
+		
+		$messages_uri = "messages/get_messages/{$id}";
+		
+		$messages = Request::factory($messages_uri)
+			->execute()->response;
 		
 		$this->template->content = $content;
 		

@@ -92,6 +92,44 @@ Kohana::modules(array(
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.
  */
+Route::set('forgot_password', 'forgot_password')
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'account',
+		'action'     => 'forgot_password',
+	));
+Route::set('signup', 'signup')
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'account',
+		'action'     => 'signup',
+	));
+Route::set('login', 'login')
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'account',
+		'action'     => 'login',
+	));
+Route::set('profile', 'profile/<id>(/<optional>)',
+	array(
+		'id' => '[0-9]+',
+		'optional'   => '.*',
+	))
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'profile',
+		'action'     => 'index',
+	));
+Route::set('user-messages', 'messages/<action>/<id>(/<optional>)',
+	array(
+		'id'         => '[0-9]+',
+		'optional'   => '.*',
+	))
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'messages',
+		'action'     => 'index',
+	));
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
 		'controller' => 'welcome',
