@@ -41,8 +41,19 @@ class Controller_Welcome extends Controller_Application {
 		
 //		View::set_global('site_name', 'Egotist Beta');
 		$content = View::factory('welcome')
-			->bind('random', $random);
-		$random = rand(1, 10);
+			->bind('messages', $messages)
+			->bind('pager_links', $pager_links);
+		$message = new Model_Message;
+		$message_count = $message->count_all();
+		$pagination = Pagination::factory(array(
+			'total_items'    => $message_count,
+			'items_per_page' => 3,
+		));
+		$pager_links = $pagination->render();
+		$messages = $message->get_all(
+			$pagination->items_per_page,
+			$pagination->offset
+			);
 		
 		$this->template->content = $content;
 		

@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |vb|
     vb.memory = 512
     vb.cpus = 1
-    vb.customize ["modifyvm", :id, "--cpuexecutioncap", "50"]
+    # vb.customize ["modifyvm", :id, "--cpuexecutioncap", "50"]
   end
 
   config.vm.synced_folder "./vagrant", "/vagrant", create: true

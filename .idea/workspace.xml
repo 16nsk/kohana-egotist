@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31fab9d2-2b2b-460d-a397-a7af2705d6ed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/ByteStream/AbstractFilterableInputStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Headers/AbstractHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/AbstractSmtpTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/AntiFloodPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/ByteStream/ArrayByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterStream/ArrayCharacterStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/KeyCache/ArrayKeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Loggers/ArrayLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mailer/ArrayRecipientIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Attachment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Attachment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/Esmtp/AuthHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/Esmtp/Authenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/BandwidthMonitorPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Encoder/Base64Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterReaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/CharsetObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/CommandEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/CommandListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/ContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Headers/DateHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/DecoratorPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/DependencyContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/DependencyException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/KeyCache/DiskKeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Loggers/EchoLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/EmbeddedFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/EmbeddedFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Encoding.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/EncodingObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/EsmtpHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/EsmtpTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/EventDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/EventListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/EventObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/FailoverTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/FailoverTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/ByteStream/FileByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/FileStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Filterable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterReader/GenericFixedWidthReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/HeaderEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/HeaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/HeaderSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Reporters/HitReporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Reporters/HtmlReporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Headers/IdentificationHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/InputByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/IoBuffer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/IoException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/KeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/KeyCache/KeyCacheInputStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/LoadBalancedTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/LoadBalancedTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/LoggerPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/MailInvoker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/MailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/MailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Headers/MailboxHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/MimeEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/MimePart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/MimePart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterStream/NgCharacterStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/KeyCache/NullKeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/OutputByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/ParameterizedHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Headers/ParameterizedHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Headers/PathHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Pop/Pop3Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Pop/Pop3Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Preferences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Encoder/QpEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mailer/RecipientIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/ReplacementFilterFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Decorator/Replacements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Reporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/ReporterPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/ResponseEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/ResponseListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Encoder/Rfc2231Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/RfcComplianceException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/SendEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/SendListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/SendmailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/SendmailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/SimpleEventDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/SimpleHeaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/SimpleHeaderSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/SimpleMailInvoker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/SimpleMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/SimpleMimeEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Sleeper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/SmtpAgent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/SmtpTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport/StreamBuffer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/StreamFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/StreamFilters/StringReplacementFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/SwiftException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/ThrottlerPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Plugins/Timer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Transport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/TransportChangeEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/TransportChangeListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/TransportException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/TransportExceptionEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Events/TransportExceptionListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/Mime/Headers/UnstructuredHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterReader/UsAsciiReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/classes/Swift/CharacterReader/Utf8Reader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/dependency_maps/cache_deps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/kohana/mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/config/mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/model/message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/dependency_maps/mime_deps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/mime_types.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/kohana/mailer/transport/native.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/mailer/transport/native.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/preferences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/kohana/mailer/transport/sendmail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/mailer/transport/sendmail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/kohana/mailer/transport/smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/mailer/transport/smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/swift_init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/swift_required.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/swift_required_pear.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/kohana/mailer/transport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/vendor/swift/dependency_maps/transport_deps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/classes/mailer/user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/mailer/views/mailer/user/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/action_provision" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/action_set_name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/index_uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vagrant/shell/install-develsupport.sh" afterPath="$PROJECT_DIR$/vagrant/shell/install-develsupport.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vagrant/etc/init/mailcatcher.conf" afterPath="$PROJECT_DIR$/vagrant/etc/init/mailcatcher.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/private_key" afterPath="$PROJECT_DIR$/.vagrant/machines/web/virtualbox/private_key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/controller/welcome.php" afterPath="$PROJECT_DIR$/application/classes/controller/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/welcome.php" afterPath="$PROJECT_DIR$/application/views/welcome.php" />
+    </list>
+    <ignored path="kohana.3.0.begginers_guide.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - @localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - @localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="egotist" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="messages" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kohana.3.0.begginers_guide" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/mailer/README">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vagrant/shell/install-develsupport.sh" />
+        <option value="$PROJECT_DIR$/modules/database/config/database.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/80e7cc21-2084-4384-8e14-f7ad3015e5cb/console.sql" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/views/welcome.php" />
+        <option value="dbtable:/dd42b2ae/80e7cc21-2084-4384-8e14-f7ad3015e5cb/egotist..messages" />
+        <option value="$PROJECT_DIR$/application/classes/model/message.php" />
+        <option value="$PROJECT_DIR$/application/classes/controller/welcome.php" />
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
+        <option value="$PROJECT_DIR$/vagrant/etc/init/mailcatcher.conf" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="260" />
+    <option name="y" value="109" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vagrant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vagrant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vagrant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules" />
+      <recent name="$PROJECT_DIR$/application/config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31fab9d2-2b2b-460d-a397-a7af2705d6ed" name="Default" comment="" />
+      <created>1439228521128</created>
+      <option name="number" value="Default" />
+      <updated>1439228521128</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="260" y="109" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vagrant/etc/init/mailcatcher.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/shell/cleanup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032292787">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/shell/install-mailcatcher.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33907428">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/shell/install-develsupport.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08073197">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/database/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/80e7cc21-2084-4384-8e14-f7ad3015e5cb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="57" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.047468353">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/Kohana/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23734178">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/profile/messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44958678">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0518292">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dd42b2ae/80e7cc21-2084-4384-8e14-f7ad3015e5cb/egotist..messages">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/model/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4572785">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23734178">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/controller/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43670887">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/pagination/config/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/pagination/views/pagination/basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/pagination/views/pagination/floating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3022152">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26265824">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33492824">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/etc/init/mailcatcher.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.107361965">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mailer/views/mailer/user/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mailer/README">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
