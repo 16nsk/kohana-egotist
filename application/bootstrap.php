@@ -81,11 +81,12 @@ Kohana::modules(array(
 	'codebench'  => MODPATH.'codebench',  // Benchmarking tool
 	'database'   => MODPATH.'database',   // Database access
 	// 'image'      => MODPATH.'image',      // Image manipulation
-	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
+	'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'oauth'      => MODPATH.'oauth',      // OAuth authentication
 	'pagination' => MODPATH.'pagination', // Paging of results
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+	'mailer'     => MODPATH.'mailer',
 	));
 
 /**
@@ -119,6 +120,35 @@ Route::set('profile', 'profile/<id>(/<optional>)',
 		'directory'  => 'user',
 		'controller' => 'profile',
 		'action'     => 'index',
+	));
+Route::set('user-add-message', 'messages/add(/<id>)',
+	array(
+		'id'         => '[0-9]+',
+	))
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'messages',
+		'action'     => 'add',
+	));
+Route::set('user-edit-message', 'messages/edit(/<user_id>(/<message_id>))',
+	array(
+		'user_id'         => '[0-9]+',
+		'message_id'      => '[0-9]+',
+	))
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'messages',
+		'action'     => 'edit',
+	));
+Route::set('user-delete-message', 'messages/delete(/<user_id>(/<message_id>))',
+	array(
+		'user_id'         => '[0-9]+',
+		'message_id'      => '[0-9]+',
+	))
+	->defaults(array(
+		'directory'  => 'user',
+		'controller' => 'messages',
+		'action'     => 'delete',
 	));
 Route::set('user-messages', 'messages/<action>/<id>(/<optional>)',
 	array(
