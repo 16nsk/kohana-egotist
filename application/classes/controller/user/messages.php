@@ -50,39 +50,51 @@ class Controller_User_Messages extends Controller_Application
 
 	public function action_add()
 	{
-		$messages = new Model_Message;
+		$user = Auth::instance()->get_user();
 
-		$user_id = $this->request->param('id');
+		$message = new Model_Message;
 
-		$this->template->content = View::factory('profile/message_form');
+		$message->user = $user;
 
-		if (isset($_POST['content'])) {
-			//$messages->add($user_id, (string)$_POST['content']);
-			$messages->create($user_id, $_POST['content']);
-			$redirect = URL::site("messages/get_messages/{$user_id}");
-			Request::instance()->redirect($redirect);
+		$this->template->content = View::factory('profile/message_form')
+			->bind('errors', $errors);
+
+		if ($_POST) {
+			$_POST['date_published'] = time();
+			$message->values($_POST);
+
+			if ($message->check())
+			{
+				$message->save();
+				$redirect = URL::site("messages/get_messages/{$user_id}");
+				Request::instance()->redirect($redirect);
+			} else {
+				$errors = $message->validate()->errors('messages/add');
+			}
 		}
 	}
 
 	public function action_edit()
 	{
 
-		$user_id = $this->request->param('user_id');
+		$user = Auth::instance()->get_user();
+
 		$message_id = $this->request->param('message_id');
 		
 		$messages = new Model_Message;
+
 		//$message = $messages->get_message($message_id);
 		$message = $messages->find($message_id);
 
-		if ($message->user_id != $user_id)
+		if ($message->user_id != $user->id)
 		{
 			throw new Exception('User is not owner of the message');
 		}
 
 		$this->template->content = View::factory('profile/message_form')
-			->set('value', $message['content']);
+			->set('value', $message->content);
 
-		if (isset($_POST['content']))
+		if ($_POST AND $_POST['content'])
 		{
 //			$messages->edit($message_id, $_POST['content']);
 			$messages->update($message_id, $_POST['content']);
@@ -93,14 +105,15 @@ class Controller_User_Messages extends Controller_Application
 
 	public function action_delete()
 	{
-		$user_id = $this->request->param('user_id');
+		$user = Auth::instance()->get_user();
+
 		$message_id = $this->request->param('message_id');
 		
 		$message = new Model_Message;
 //		$message = $messages->get_message($message_id);
 		$message->find($message_id);
 
-		if($message->user_id != $user_id)
+		if($message->user_id != $user->id)
 		{
 			throw new Exception('User is not owner of the message');
 		}

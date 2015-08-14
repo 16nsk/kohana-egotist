@@ -9,6 +9,38 @@ class Model_Message extends ORM {
     // Table name used by this model (not needed with ORM)
     // protected $_table = 'messages';
 
+	protected $_belongs_to = array(
+		'user' => array(),
+	);
+
+	protected $_rules = array(
+		'user_id'          => array(
+			'not_empty'    => null,
+			'digit'        => null,
+		),
+		'content'          => array(
+			'not_empty'    => null,
+			'min_length'   => array(2),
+			'max_length'   => array(240),
+		),
+		'date_published'   => array(
+			'not_empty'    => null,
+			'exact_length' => array(10),
+		),
+	);
+
+	protected $_filters = array(
+		null => array(
+			'trim' => null,
+		),
+	);
+
+	protected $_labels = array(
+		'user_id'        => 'User ID',
+		'content'        => 'Content',
+		'date_published' => 'Date published',
+	);
+
     /**
      * Adds a new message for a user
      *
