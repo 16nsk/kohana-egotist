@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fab9d2-2b2b-460d-a397-a7af2705d6ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/css/reset.css" afterPath="$PROJECT_DIR$/public/media/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/css/style.css" afterPath="$PROJECT_DIR$/public/media/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/img/logo.png" afterPath="$PROJECT_DIR$/public/media/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vagrant/etc/nginx/sites-available/default" afterPath="$PROJECT_DIR$/vagrant/etc/nginx/sites-available/default" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/header.php" afterPath="$PROJECT_DIR$/application/views/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/profile/messages.php" afterPath="$PROJECT_DIR$/application/views/profile/messages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/profile/private.php" afterPath="$PROJECT_DIR$/application/views/profile/private.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/profile/public.php" afterPath="$PROJECT_DIR$/application/views/profile/public.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/welcome.php" afterPath="$PROJECT_DIR$/application/views/welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
     </list>
     <ignored path="kohana.3.0.begginers_guide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vagrant/etc/nginx/sites-available/default">
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.075093865">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.9322493">
+              <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,7 +102,6 @@
         <option value="$PROJECT_DIR$/application/views/account/errors/404.php" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/application/views/common/footer.php" />
-        <option value="$PROJECT_DIR$/application/bootstrap.php" />
         <option value="$PROJECT_DIR$/application/views/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/profile/private.php" />
         <option value="$PROJECT_DIR$/application/views/profile/messages.php" />
@@ -120,6 +109,7 @@
         <option value="$PROJECT_DIR$/application/views/profile/public.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/vagrant/etc/nginx/sites-available/default" />
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -433,9 +423,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1063" y="36" width="842" height="1150" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3432304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3432304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971996" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -443,7 +433,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33009708" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27822945" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27822945" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1536,74 +1526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52565706">
-          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
-          <folding>
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Set the default time zone. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Set the default locale. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Enable the Kohana auto-loader. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Enable the Kohana auto-loader for unserialization. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Set Kohana::$environment if a 'KOHANA_ENV' environment variable has been supplied. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Initialize Kohana, setting the default options. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Attach the file write to logging. Multiple writers are supported. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Attach a file reader to config. Multiple readers are supported. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Enable modules. Modules are referenced by a relative or absolute path. ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Set the routes. Each route must have a minimum of a name, a URI and a set of ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Execute the main request using PATH_INFO. If no URI source is specified, ..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439630073000" expanded="true" signature="-1:-1" placeholder=" Display the request response. ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/user/messages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2715895">
@@ -1741,8 +1663,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vagrant/etc/nginx/sites-available/default">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.075093865">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6758448">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9322493">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
           <folding />
         </state>
       </provider>
