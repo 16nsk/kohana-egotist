@@ -34,7 +34,7 @@ Vagrant.configure(2) do |config|
 
     web.vm.synced_folder "./", "/var/www/html", create: true, group: "www-data", owner: "www-data"
 
-    web.vm.network "forwarded_port", guest: 80, host: 8080
+    web.vm.network "forwarded_port", guest: 80, host: 8888 # 8080 sometimes is used by skype or other apps
     web.vm.network "forwarded_port", guest: 1080, host: 1080
 
     web.vm.provision "shell", :inline => "sh /vagrant/shell/swap.sh; sh /vagrant/shell/update-package-manager.sh; sh /vagrant/shell/install-develsupport.sh; sh /vagrant/shell/install-utilities.sh; sh /vagrant/shell/install-nginx.sh; sh /vagrant/shell/install-php.sh; sh /vagrant/shell/setup-web-server.sh; sh /vagrant/shell/install-mailcatcher.sh; sh /vagrant/shell/cleanup.sh;"

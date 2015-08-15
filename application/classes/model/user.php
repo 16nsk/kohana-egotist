@@ -15,16 +15,22 @@ class Model_User extends Model_Auth_User {
 		),
 	);
 
-	protected $_labels = array(
-		'username'         => 'Username',
-		'email'            => 'Email address',
-		'password'         => 'Password',
-		'password_confirm' => 'Password confirm',
-	);
+	/**
+	 * Already declared in Model_Auth_User
+	 */
+//	protected $_labels = array(
+//		'username'         => 'Username',
+//		'email'            => 'Email address',
+//		'password'         => 'Password',
+//		'password_confirm' => 'Password confirmation',
+//	);
 
-	protected $_ignored_columns = array(
-		'password_confirm',
-	);
+	/**
+	 * Already declared in Model_Auth_User
+	 */
+//	protected $_ignored_columns = array(
+//		'password_confirm',
+//	);
 
 	public function validate_create( $array )
 	{
@@ -33,7 +39,8 @@ class Model_User extends Model_Auth_User {
 		                 ->label( 'email',    $this->_labels['email'] )
 		                 ->rules( 'username', $this->_rules['username'] )
 		                 ->rules( 'email',    $this->_rules['email'] )
-		                 ->rules( 'password', $this->_rules['password'] );
+		                 ->rules( 'password', $this->_rules['password'] )
+		                 ->rules( 'password_confirm', $this->_rules['password_confirm'] );
 
 		foreach ( $this->_callbacks as $key => $value )
 		{
@@ -54,9 +61,14 @@ class Model_User extends Model_Auth_User {
 			->label( 'username', $this->_labels['username'] )
 			->label( 'email',    $this->_labels['email'] );
 
+		// This is the right code, error in book, check validate_create and look in Model_Auth_User for a similar one (login)
 		foreach ( $this->_callbacks as $key => $value )
 		{
-			$array->callback($key, array($this, $value));
+			foreach ( $value as $validator )
+			{
+				$array->callback($key, array($this, $validator));
+			}
+
 		}
 
 		return $array;

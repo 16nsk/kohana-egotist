@@ -46,8 +46,6 @@ class Controller_User_Account extends Controller_Application {
 		{
 			$user = new Model_User;
 			$post = $user->validate_create($_POST);
-			var_dump($post->check());
-			var_dump($post->errors('signup')); die();
 
 			if ($post->check())
 			{

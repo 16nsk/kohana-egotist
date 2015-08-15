@@ -3,7 +3,7 @@
 <?php echo Form::open(); ?>
 <div class="form-field">
 	<?php echo Form::label('username', 'Username'); ?>
-	<?php echo Form::input('last_name'); ?>
+	<?php echo Form::input('username'); ?>
 </div>
 <div class="form-field">
 	<?php echo Form::label('email', 'Email address'); ?>

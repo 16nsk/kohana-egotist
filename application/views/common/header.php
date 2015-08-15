@@ -15,7 +15,7 @@
 <p id="account">
 
 	<?php if (Auth::instance()->logged_in() AND $user = Auth::instance()->get_user()) : ?>
-	Logged in as <?php echo $user->username; ?>. <?php echo HTML::anchor('logout', 'Logout'); ?>
+	Logged in as <?php echo HTML::anchor('profile/private', $user->username); ?>. <?php echo HTML::anchor('logout', 'Logout'); ?>
 
 	<?php else : ?>
 		<?php echo HTML::anchor('login', 'Login'); ?> | <?php echo HTML::anchor('signup', 'Signup'); ?>

@@ -1,7 +1,12 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_User_Messages extends Controller_Application
-{
+class Controller_User_Messages extends Controller_Application {
+
+	public $assert_auth_actions = array(
+		'add'    => array('login'),
+		'edit'   => array('login'),
+		'delete' => array('login'),
+	);
 
 	public function action_index()
 	{
@@ -66,7 +71,7 @@ class Controller_User_Messages extends Controller_Application
 			if ($message->check())
 			{
 				$message->save();
-				$redirect = URL::site("messages/get_messages/{$user_id}");
+				$redirect = URL::site("messages/get_messages/{$user->id}");
 				Request::instance()->redirect($redirect);
 			} else {
 				$errors = $message->validate()->errors('messages/add');
@@ -98,7 +103,7 @@ class Controller_User_Messages extends Controller_Application
 		{
 //			$messages->edit($message_id, $_POST['content']);
 			$messages->update($message_id, $_POST['content']);
-			$redirect = url::site("messages/get_messages/{$user_id}");
+			$redirect = url::site("messages/get_messages/{$user->id}");
 			Request::instance()->redirect($redirect);
 		}
 	}
@@ -120,7 +125,7 @@ class Controller_User_Messages extends Controller_Application
 
 		$message->delete();
 
-		$redirect = url::site("messages/get_messages/{$user_id}");
+		$redirect = url::site("messages/get_messages/{$user->id}");
 		Request::instance()->redirect($redirect);
 	}
 	

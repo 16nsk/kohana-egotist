@@ -2,6 +2,8 @@
 
 <h2>Private profile for <?php echo $user->username; ?></h2>
 
+<?php echo HTML::anchor('messages/add', 'Create a new message'); ?>
+
 <h3>Our recent messages:</h3>
 
 <?php if ( count($messages) ) : ?>
@@ -21,6 +23,8 @@
 		<hr />
 
 	<?php endforeach; ?>
+
+	<?php echo $pager_links; ?>
 
 <?php else: ?>
 	<p>We have no messages in the system.</p>
