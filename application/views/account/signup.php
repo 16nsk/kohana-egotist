@@ -1,5 +1,18 @@
 <h1>Sign up for Egotist... You know you want to!</h1>
 
+<?php if ($errors): ?>
+
+	<h2 class="error">There were form errors.</h2>
+	<ul class="errors">
+		<?php foreach ($errors as $error) : ?>
+		<li><?php echo Kohana::debug($error); ?></li>
+		<?php endforeach; ?>
+	</ul>
+
+	<?php echo Kohana::debug($errors); ?>
+
+<?php endif; ?>
+
 <?php echo Form::open(); ?>
 <div class="form-field">
 	<?php echo Form::label('username', 'Username'); ?>

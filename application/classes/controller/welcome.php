@@ -5,6 +5,7 @@ class Controller_Welcome extends Controller_Application {
 	public function action_index()
 	{
 
+
 		$content = View::factory('welcome')
 			->bind('messages', $messages)
 			->bind('pager_links', $pager_links);
@@ -21,9 +22,6 @@ class Controller_Welcome extends Controller_Application {
 			);
 		
 		$this->template->content = $content;
-		
-//		View::bind_global('site_name', $site_name);
-//		$site_name = 'Egotist Beta';
 		
 	}
 

@@ -40,7 +40,8 @@ class Controller_User_Account extends Controller_Application {
 	public function action_signup()
 	{
 		
-		$this->template->content = View::factory('account/signup');
+		$this->template->content = View::factory('account/signup')
+			->bind('errors', $errors);
 
 		if ($_POST)
 		{
@@ -52,14 +53,14 @@ class Controller_User_Account extends Controller_Application {
 				$user->values($post);
 				$user->save();
 				$user->add('roles', ORM::factory('role')->find(1));
+				Request::instance()->redirect('login');
 			}
 			else
 			{
-				$this->errors = $post->errors('signup');
-				Request::instance()->redirect('signup');
-			}
+				$errors = $post->errors();
 
-			Request::instance()->redirect('');
+				// Request::instance()->redirect('signup');
+			}
 		}
 
 	}
