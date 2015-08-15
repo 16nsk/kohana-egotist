@@ -9,6 +9,9 @@ class Model_Message extends ORM {
     // Table name used by this model (not needed with ORM)
     // protected $_table = 'messages';
 
+	// From this step this app should be reviewed. The book author has not used many
+	// of what Kohana already provides. It's not a best practice, looks more as a hack.
+
 	protected $_belongs_to = array(
 		'user' => array(),
 	);
