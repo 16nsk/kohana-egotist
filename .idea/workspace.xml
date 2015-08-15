@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fab9d2-2b2b-460d-a397-a7af2705d6ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/madalin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/controller/user/account.php" afterPath="$PROJECT_DIR$/application/classes/controller/user/account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/account/signup.php" afterPath="$PROJECT_DIR$/application/views/account/signup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/classes/controller/welcome.php" afterPath="$PROJECT_DIR$/application/classes/controller/welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kohana.3.0.begginers_guide.iws" />
@@ -63,20 +59,6 @@
   <component name="FavoritesManager">
     <favorites_list name="kohana.3.0.begginers_guide" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="signup.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/account/signup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44715446">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -104,7 +86,6 @@
         <option value="$PROJECT_DIR$/application/views/profile/private.php" />
         <option value="$PROJECT_DIR$/application/views/common/header.php" />
         <option value="$PROJECT_DIR$/application/views/account/noaccess.php" />
-        <option value="$PROJECT_DIR$/application/bootstrap.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/user/messages.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/user/profile.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/application.php" />
@@ -112,6 +93,8 @@
         <option value="$PROJECT_DIR$/application/classes/controller/welcome.php" />
         <option value="$PROJECT_DIR$/application/classes/controller/user/account.php" />
         <option value="$PROJECT_DIR$/application/views/account/signup.php" />
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/application/views/account/errors/404.php" />
       </list>
     </option>
   </component>
@@ -667,6 +650,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana.3.0.begginers_guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -777,8 +782,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/config" />
       <recent name="$PROJECT_DIR$/modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views" />
     </key>
   </component>
   <component name="RunManager">
@@ -843,22 +852,28 @@
       <option name="project" value="LOCAL" />
       <updated>1439624763614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I should do error handling to login also.&#10;&#10;Still I get the machine version of errors instead of nice messages. Did I skip anything?">
+      <created>1439626893299</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1439626893299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1063" y="36" width="842" height="1150" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3432304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3432304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971996" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33009708" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27862597" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27822945" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -907,20 +922,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="continue, ignore my commits ;)" />
     <MESSAGE value="Starting debug chapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting debug chapter" />
+    <MESSAGE value="I should do error handling to login also.&#10;&#10;Still I get the machine version of errors instead of nice messages. Did I skip anything?" />
+    <option name="LAST_COMMIT_MESSAGE" value="I should do error handling to login also.&#10;&#10;Still I get the machine version of errors instead of nice messages. Did I skip anything?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/database/classes/kohana/database/query/builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1572327">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/database/classes/database/query.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.031446543">
@@ -1732,66 +1741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21680216">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-          <folding>
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Set the default time zone. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Set the default locale. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Enable the Kohana auto-loader. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Enable the Kohana auto-loader for unserialization. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Set Kohana::$environment if a 'KOHANA_ENV' environment variable has been supplied. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Initialize Kohana, setting the default options. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Attach the file write to logging. Multiple writers are supported. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Attach a file reader to config. Multiple readers are supported. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Enable modules. Modules are referenced by a relative or absolute path. ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Set the routes. Each route must have a minimum of a name, a URI and a set of ..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439623612000" expanded="true" signature="-1:-1" placeholder=" Execute the main request. A source of the URI can be passed, eg: $_SERVER['PATH_INFO']. ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/controller/application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20325203">
@@ -2097,9 +2046,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/account/signup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44715446">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="0.43360433">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439626734000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55284554">
+          <caret line="192" column="3" selection-start-line="192" selection-start-column="3" selection-end-line="192" selection-end-column="3" />
+          <folding>
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Set the default time zone. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Set the default locale. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Enable the Kohana auto-loader. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Enable the Kohana auto-loader for unserialization. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Set Kohana::$environment if a 'KOHANA_ENV' environment variable has been supplied. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Initialize Kohana, setting the default options. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Attach the file write to logging. Multiple writers are supported. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Attach a file reader to config. Multiple readers are supported. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Enable modules. Modules are referenced by a relative or absolute path. ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Set the routes. Each route must have a minimum of a name, a URI and a set of ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Execute the main request using PATH_INFO. If no URI source is specified, ..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439627476000" expanded="true" signature="-1:-1" placeholder=" Display the request response. ..." />
+          </folding>
         </state>
       </provider>
     </entry>
