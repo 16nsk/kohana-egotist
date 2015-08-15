@@ -43,6 +43,7 @@ if (isset($_SERVER['APP_ENV']))
 {
 	Kohana::$environment = $_SERVER['APP_ENV'];
 }
+Kohana::$environment = Kohana::DEVELOPMENT;
 
 /**
  * Initialize Kohana, setting the default options.
@@ -212,7 +213,7 @@ catch (Exception $e)
 		->set('title', '404')
 		->set('styles', array(
 			'reset',
-			'common',
+			'style',
 		))
 		->set('scripts', array())
 		->set('content', View::factory('errors/404'));
