@@ -1,6 +1,6 @@
 <?php foreach ($messages as $message) : ?>
 <p class="message">
-	<?php echo $message->content; ?>
+	<?php echo HTML::chars($message->content); ?>
 	<br />
 	<span class="published">
 		<?php echo Date::fuzzy_span($message->date_published); ?>
